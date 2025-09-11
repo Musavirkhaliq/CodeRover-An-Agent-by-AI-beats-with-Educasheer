@@ -9,11 +9,10 @@ This project implements a **coding agent** that can:
 - Orchestrate between **tools**, a **decision-making LLM**, and a **code-writing LLM**.
 - Continuously improve how it selects **which workflow** and **which memories** to use.
 
----
 
 ## 📂 Project Structure
 
-```
+
 
 coding-agent/
 │── README.md
@@ -38,7 +37,7 @@ coding-agent/
 │
 └── tests/               # unit tests
 
-````
+```
 
 ---
 
