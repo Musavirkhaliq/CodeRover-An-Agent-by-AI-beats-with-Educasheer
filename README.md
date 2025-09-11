@@ -1,5 +1,3 @@
-Here’s a **README.md** tailored for your coding agent project 👇
-
 ```markdown
 # 🤖 Coding Agent with Memory and RL
 
