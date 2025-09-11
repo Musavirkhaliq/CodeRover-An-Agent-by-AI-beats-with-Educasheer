@@ -1,4 +1,4 @@
-```markdown
+
 # 🤖 Coding Agent with Memory and RL
 
 This project implements a **coding agent** that can:
@@ -11,7 +11,7 @@ This project implements a **coding agent** that can:
 ## 📂 Project Structure
 
 
-
+```markdown
 coding-agent/
 │── README.md
 │── requirements.txt
