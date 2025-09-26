@@ -1,6 +1,6 @@
 # main.py
 import sys
-from agent import Agent
+from tools.agent import Agent
 
 if __name__ == "__main__":
     # Check if a request was provided
