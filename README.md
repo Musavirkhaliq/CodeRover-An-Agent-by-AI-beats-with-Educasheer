@@ -88,9 +88,35 @@ The **brain** of the system.
 * Helps agent reuse past experiences.
 
 ### LLMs
+### 🚀 Enhanced Capabilities
+- 🧩 **Dual-LLM orchestration** for better division of reasoning and execution.  
+- 🎛️ **Multi-temperature generation** (`0.3 / 0.7 / 1.0`) for controlled creativity.  
+- 🔍 **Automatic output comparison** for best result selection.  
+- ⚙️ **Flexible integration** via `llm_factory.py` for multiple model backends.  
+- 🧠 **Improved testing suite** covering LLM, memory, and orchestrator modules.
 
-* **Orchestrator LLM** → reasoning, planning, tool selection.
-* **Code Writer LLM** → writes/debugs code.
+---
+# ⚡️ New Updates — Dual-LLM Orchestration & Multi-Temperature Code Generation
+
+### 🧠 Dual-Model Setup
+The project now integrates **two powerful LLM components**:
+- **Orchestrator LLM** – handles reasoning, planning, and coordination.
+- **Code Writer LLM** – generates, tests, and refines executable code.
+
+Each execution generates **three code outputs** using different **temperature values**:
+- `0.3` → precise and deterministic  
+- `0.7` → balanced between accuracy and creativity  
+- `1.0` → highly creative and exploratory  
+
+The system then **compares all three results** and automatically selects the **best-performing output**.
+### 🧪 Example Run
+```bash
+python run.py
+```
+This triggers the orchestrator to:
+1. Call the **Orchestrator LLM** for task reasoning.  
+2. Use the **Code Writer LLM** to generate code at 3 temperatures.  
+3. Compare outputs and select the **most optimal one**.
 
 ### Tools
 

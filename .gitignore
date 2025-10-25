@@ -205,3 +205,75 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================================
+# CodeRover Project Specific
+# ============================================================================
+
+# Environment files (CRITICAL - Never commit API keys!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Data directories
+data/
+data/memory_store/
+data/logs/
+data/rl_checkpoints/
+data/datasets/
+
+# Model files and checkpoints
+models/
+checkpoints/
+*.pth
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+
+# Vector database files
+*.faiss
+*.index
+chroma_db/
+vector_store/
+
+# Generated code outputs
+generated/
+outputs/
+code_outputs/
+
+# Temporary test files
+temp/
+tmp/
+scratch/
+test_outputs/
+
+# LLM cache
+.llm_cache/
+llm_responses/
+
+# Experiment results
+experiments/
+results/
+wandb/
+
+# Local configuration overrides
+config.local.yaml
+config.local.yml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
