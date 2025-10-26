@@ -276,4 +276,4 @@ $RECYCLE.BIN/
 # Linux
 *~
 .directory
-.Trash-*
+.Trash-*".env" 
